@@ -1,9 +1,22 @@
-# The-BPM-offset-description-in-the-Malody-s-.mc-will-be-change-to-BLOPHY-s-Chart.json-if-you-want
-把马老弟的谱子中BPM/offset/描述转成菠萝派格式
-使用方法：
-0 在微软商店下载Python（哪个版本都行，大概吧）
-1 从右边的Releases界面里面下载最新的py文件
-2 在一个空文件夹中放置这个py文件
-3 拖进来一个马老弟的.mc谱面文件
-4 右键py文件，选择用Python运行（需要安装python）
-5 把Chart.json拖回去覆盖，index那个你随意，反正我是加着玩的
+# 使用指南：将马老弟的谱子转化为菠萝派格式
+
+## 步骤：
+
+### 0. 在微软商店下载 Python
+- 任何版本的 Python 都可以，反正大概支持就行。
+
+### 1. 从 Releases 页面下载最新的 `.py` 文件
+- 访问发布页面并下载最新的 Python 文件。
+
+### 2. 在空文件夹中放置该 `.py` 文件
+- 将下载的 `.py` 文件放置在一个空文件夹中。
+
+### 3. 拖入马老弟的 `.mc` 谱面文件
+- 将你需要转换的 `.mc` 文件拖入该文件夹。
+
+### 4. 右键点击 `.py` 文件，选择 "用 Python 运行"
+- 需要先安装 Python，然后选择 "用 Python 运行" 选项来执行脚本。
+
+### 5. 把生成的 `Chart.json` 文件拖回覆盖原文件
+- 脚本运行后会生成 `Chart.json` 文件，覆盖原文件即可。`index` 可以根据需要随意调整，反正我是随便加的。
+
